@@ -1,0 +1,45 @@
+body {
+    background-color: #2f22a8;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #22c41c;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 30px;
+}
+
+.passo {
+    display: none;
+    font-size: 30px;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-image: url('caminho/para/sua-imagem.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    z-index: -1; /* Envia a imagem para trás de outros elementos */
+  }
+
+
